@@ -106,6 +106,12 @@ $ yarn run jamstack-push
 $ yarn run jamstack-develop
 ```
 
+To run on a different port other than the default of 8000, for example to enable [preview on Cloud 9 IDE](https://docs.aws.amazon.com/cloud9/latest/user-guide/app-preview.html), you can specify the port.
+
+```sh
+$ yarn run jamstack-develop -p 8080
+```
+
 7. Sign up and then sign in with an Admin email address by clicking on the __Profile__ link in the footer.
 
 8. Once signed in as an Admin, you will see the Admin link in the navigation. Click on the Admin link to begin creating posts and pages.
